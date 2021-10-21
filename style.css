@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #151515;
+    color: rgb(209, 212, 250);
+}
+header{
+    background-color: #0d0d0d;
+    text-align: left;
+    padding: 1.5%;
+}
+header p{
+    margin: 0 15%;
+    font-size: 2rem;
+    
+} 
+#title{
+    text-align: center;
+    padding: 3%;
+    
+}
+main{
+    text-align: center;
+    padding: 8%;
+}
+main input{
+    font-size: 1.2rem;
+}
+main input.input{
+    padding: px;
+    border: none;
+}
+::placeholder{
+    padding: 5px;
+}
+main input#number{
+    border-radius: 10px 0 0 10px;
+    
+}
+main input#result{
+    border-radius: 0 10px 10px 0;
+    
+}
+main button{
+    font-size: 1.2rem;
+    border: none;
+    height: 28px;
+    background-color: rgb(48, 43, 43);
+    color: white;
+    cursor: pointer;
+}
+main #switch{
+    margin-top: 6%;
+    display: inline-grid;
+    grid-gap: 50px 100px;
+    
+}
+main #switch .convert{
+    font-size: 1.2rem;
+    border-bottom: 2px solid #72c02c;
+    padding-bottom: 2px;
+    
+}
+main #switch #convertFirst{
+    float: left;
+    
+}
+main #switch #alter{
+    margin-top: 1%;
+    cursor: pointer;
+    position: static;
+}
+main button#alter{
+    background-color: rgb(48, 43, 43);
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+main button#alter img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+main #switch #convertSec{
+    float: right;
+    
+}
