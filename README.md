@@ -1,5 +1,5 @@
 
-# Simple Binary/Decimal converter.
+# Binary/Decimal converter.
 
 
 
